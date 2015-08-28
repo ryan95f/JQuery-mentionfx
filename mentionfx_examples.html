@@ -1,0 +1,33 @@
+<html>
+<head>
+	<title>Jquery Plugin mentionfx</title>
+	<!-- works with jquery-1.11.2 so far but will be improved with new versions -->
+	<script src="jquery-1.11.2.min.js"></script>
+	<!-- add the following example stylesheet along with the plugin script -->
+	<link rel="stylesheet" type="text/css" href="mentionfx.css">
+	<script src="mentionfx.js"></script>
+	<script type="text/javascript" >
+		$(document).ready( function(){
+			// example of how to use plugin
+			// first parameter - ajax script : example.php or folder/example.php 
+			// second parameter - div to display output (enter it's ID) : #display
+			$('#textarea').mentionfx('example.php', '#display');
+		});
+	</script>
+</head>
+<body>
+	<h1>JQuery Plugin mentionfx</h1>
+	<p>Example of mentionfx in use. Examples to enter:</p>
+	<ul>
+		<li>Ryan</li>
+		<li>User</li>
+		<li>Test</li>
+	</ul>
+	<p>E.g. input would be @User</p>
+	<!-- Below is the only 2 lines of markup required -->
+	<!-- requires a textarea or a input type="text" to work with a unique ID -->
+	<textarea id="textarea"></textarea>
+	<!-- then a div tag with another unique ID -->
+	<div id='display'></div>
+</body>
+</html>

@@ -1,0 +1,14 @@
+#textarea{width: 500px;
+	height: 100px;
+	resize: vertical;}
+
+#display{width: 200px;}
+
+.display_box{padding:4px;
+	cursor: pointer;
+	border-top:solid 1px #dedede; 
+ 	font-size:13px; 
+ 	height:30px;}
+
+.display_box:hover{background:#000;
+	color:#FFF;} 
