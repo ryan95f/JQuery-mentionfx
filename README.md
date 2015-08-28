@@ -2,10 +2,10 @@
 A one line solution to the @ mention / tagging system used by social networks. Using an Ajax request to a server script to get usernames of a database. Example given will give a simple explanation on how to use the plugin
 
 
-Example of what is needed:
+#Example of what is needed:
 latest version of JQuery on the page:
 Then the following markup for script and example CSS:
-
+```sh
 <script src="mentionfx.js"></script>
 <link rel="stylesheet" type="text/css" href="mentionfx.css">
 <script type="text/javascript" >
@@ -22,3 +22,4 @@ Then the following markup for script and example CSS:
 
 <input id="uniqueID" type="text" />
 <div id="displayUniqueID"></div>
+```
