@@ -15,7 +15,7 @@
 
 (function ( $ ){
 	$.fn.mentionfx = function(scriptFile, displayArea){
-		var textInput = $(this).attr('id');;
+		var textInput = $(this).attr('id');
 		var startTag=/@/ig;
 		var tagWithUser=/@(\w+)/ig;
 		var globalTagTemp;
