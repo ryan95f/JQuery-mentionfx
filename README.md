@@ -5,6 +5,7 @@ A one line solution to the @ mention / tagging system used by social networks. U
 #How to use mentionfx:
 latest version of JQuery on the page:
 Then the following markup for script and example CSS:
+It is suggested that you have either a textarea or an input using the mentionfx.
 ```sh
 <script src="mentionfx.js"></script>
 <link rel="stylesheet" type="text/css" href="mentionfx.css">
