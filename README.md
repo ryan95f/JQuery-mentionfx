@@ -2,7 +2,7 @@
 A one line solution to the @ mention / tagging system used by social networks. Using an Ajax request to a server script to get usernames of a database. Example given will give a simple explanation on how to use the plugin
 
 
-#Example of what is needed:
+#How to use mentionfx:
 latest version of JQuery on the page:
 Then the following markup for script and example CSS:
 ```sh
@@ -10,7 +10,7 @@ Then the following markup for script and example CSS:
 <link rel="stylesheet" type="text/css" href="mentionfx.css">
 <script type="text/javascript" >
 		$(document).ready( function(){
-      $('#uniqueID').mentionfx('exampleScript.php', '#displayUniqueID');
+      			$('#uniqueID').mentionfx('exampleScript.php', '#displayUniqueID');
 		});
 	</script>
 
